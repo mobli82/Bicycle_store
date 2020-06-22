@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    margin: 0;
+}
+header{
+    background-color:  rgb(64, 144, 219);
+    padding: 20px;
+}
+
+nav > a{
+    color: yellow;
+    text-decoration: none;
+    border: 1px solid;
+    padding: 5px;
+    margin-right: 20px;
+}
+nav > a:hover{
+    background-color: white;
+    color: rgb(64, 144, 219);
+}
+
+main > section{
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    text-align: justify;
+}
+footer{
+    padding: 10px;
+    background-color: rgb(64, 144, 219);
+}
+audio {
+    width: 500px;
+    padding: 5px;
+}
+
+.fab fa-linkedin{
+    font-size: 25;
+    padding: 10px;
+}
+
+@media only screen and (max-width: 600px){
+    main > section{
+        width: 100%;
+    }
+}

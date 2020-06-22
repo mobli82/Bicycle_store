@@ -1,0 +1,8 @@
+[
+    {"id":1, "name": "KidsBicycle", "price": 789, "items":0},
+    {"id":2, "name": "MountainBicycle", "price": 889, "items":0},
+    {"id":3, "name": "CityBicycle", "price": 589, "items":0},
+    {"id":4, "name": "DoubleBicycle", "price": 450, "items":0},
+    {"id":5, "name": "SpecialOneBicycle", "price": 1000, "items":0}
+
+]

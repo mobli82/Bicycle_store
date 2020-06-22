@@ -1,0 +1,79 @@
+html{
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+table{
+    border-collapse: collapse;
+    caption-side: top;
+    border: 1px solid gray;
+    overflow: hidden;
+}
+caption{
+    color: cornflowerblue;
+    font-size: 25px;
+    font-weight: 400;
+    background-color: palegoldenrod;
+}
+thead{}
+tbody{}
+thead tr{}
+tbody tr{}
+
+thead th:nth-of-type(1n+2){
+    vertical-align: top;
+    text-align: center;
+    border-left: 1px solid gray;
+}
+
+thead th span{
+    text-orientation: upright;
+    writing-mode: vertical-rl;
+}
+
+thead :empty{
+    background-color: orange;
+}
+
+tbody tr th, td{
+    border-right: 1px dashed green;
+}
+
+tbody tr :hover{
+    background-color: orange;
+}
+
+tr{
+    border: 1px solid gray;
+}
+
+th{
+    padding: 5px;
+}
+
+td{
+    padding: 5px;
+    text-align: center;
+}
+
+thead tr{
+    background-color: khaki;
+}
+
+tbody td, tbody th{
+    position: relative;
+}
+
+tbody td:hover::after,
+tbody th:hover::after{
+    content: "";
+    position: absolute;
+    background-color: powderblue;
+    left: 0;
+    top: -5000px;
+    height: 10000px;
+    width: 100%;
+    z-index: -1;
+}
+
